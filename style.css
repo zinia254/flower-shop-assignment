@@ -1,0 +1,40 @@
+*{
+    margin: 0px;    
+    padding: 0px;
+}
+
+/*shared CSS*/
+.btn-primary{
+    margin-top: 32px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+header>.header-text>h1{
+    font-family: Lato;
+    font-size: 50px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+}
+
+header>.header-text>h5{
+    margin-top: 32px;
+    color: #27272799;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+}
+
