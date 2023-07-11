@@ -10,17 +10,29 @@
     border-radius: 8px;
     background: #E55473;
     border: 0px;
+    color: white;
+    font-family: Lato;
+    font-size: 15px;
 }
 
 
 header{
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color: rgba(229, 84, 115, 0.10);
+   
+}
+.header-text{
+    margin-left: 150px;
+}
+
+.header-image{
+    margin-right: 150px;
 }
 
 header>.header-text>h1{
+   
     font-family: Lato;
     font-size: 50px;
     font-style: bold;
@@ -35,6 +47,67 @@ header>.header-text>h5{
     font-size: 15px;
     font-style: normal;
     font-weight: 100;
-    line-height: 20px;
+    line-height: 30px;
 }
 
+.title{
+    margin-top: 150px;
+}
+.title h1{
+    font-size: 35px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.title h5{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.rectangle{
+    width: 380px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+
+}
+
+.rectangles{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rectangle2{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.rectangle3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.align{
+    height: 75%;
+    margin: 110px 76px 0px 76px;
+   
+}
+
+.align2{
+    height: 75%;
+    margin: 110px 76px 0px 45px;
+}
+
+.Em{
+    margin-top: 20px;
+}
